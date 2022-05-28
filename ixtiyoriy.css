@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(255, 192, 227),red);
+}
+.box{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+}
+.main img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid blueviolet;
+    box-shadow: 10px 10px 10px;
+    transform:translateX(300px) translateY(-210px);
+    
+}
+.box h2{
+    text-align: center;
+    margin-top: 70px;
+    color: blueviolet;
+}
+.box p{
+    text-align: center;
+    margin-top: 10px;
+}
+.box b{
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.box2{
+    width: 100%;
+    height: 60px;
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.btn{
+    width: 80px;
+    height: 70%;
+    margin-left: 40px;
+    border: 2px solid white;
+    font-size: 20px;
+    background-color: white;
+}
+.text{
+    margin-left: 60px;
+}
+.text1{
+    margin-left: 80px;
+}
+.text2{
+    margin-left: 80px;
+}
+.text3{
+    margin-left: 90px;
+}
+.btn4{
+    background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ border: 0px solid white;
+}
+.btn4{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border: 0px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: repeating-radial-gradient(red,blue,green,yellow,gold);
+}
+.btn5{
+    width: 120px;
+    font-size: 20px;
+    height: 40px;
+    background-image: repeating-linear-gradient(red,blue,green,yellow,gold);
+    border: 3px solid white;
+    border-radius: 20px;
+    transform: translateX(-80px) translateY(50px);
+    
+}
+.btn6{
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    background-image: repeating-linear-gradient(red,blue,green,yellow,gold);
+     border: 3px solid white;
+     border-radius: 20px;
+     transform: translateY(50px);
+}
